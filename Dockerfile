@@ -1,5 +1,5 @@
 # Use the Grafana base image with version 10.2.2 on Ubuntu
-FROM grafana/grafana:latest
+FROM grafana/grafana:main-ubuntu
 
 # Expose port 3000 for Grafana
 EXPOSE 3000
