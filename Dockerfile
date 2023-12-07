@@ -20,7 +20,7 @@ WORKDIR /home/factory
 
 
 # Expose port 3000 for Grafana
-EXPOSE 3000
+EXPOSE 3000 8000 9000 8086
 
 # Command to start the Grafana container with the name "grafana"
 CMD ["grafana-server", "--homepath=/usr/share/grafana", "--config=/etc/grafana/grafana.ini", "cfg:default.paths.data=/var/lib/grafana", "cfg:default.paths.logs=/var/log/grafana"]
