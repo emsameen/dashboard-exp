@@ -18,6 +18,8 @@ USER 1001
 USER factory
 WORKDIR /home/factory
 
+COPY py-app ./py-app
+COPY node-app ./node-app
 
 # Expose port 3000 for Grafana
 EXPOSE 3000 8000 9000 8086
